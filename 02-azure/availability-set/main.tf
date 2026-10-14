@@ -2,7 +2,7 @@
 # An availability set spreads VMs across fault domains (shared power and
 # network switch) and update domains (planned maintenance waves).
 # Docs: https://learn.microsoft.com/en-us/azure/virtual-machines/availability-set-overview
-
+sdf
 locals {
   tags = {
     project = "blast-radius-kit"
