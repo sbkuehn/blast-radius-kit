@@ -2,7 +2,7 @@ variable "subscription_id" {
   description = "Azure subscription to deploy into."
   type        = string
 }
-
+asdf
 variable "region" {
   description = "Azure region. Availability sets are the best in-region option where zones aren't available."
   type        = string
