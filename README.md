@@ -1,5 +1,7 @@
 # Blast Radius Kit
 
+By Shannon Eldridge-Kuehn · Copyright (c) 2026 · Cloudy Musings
+
 Companion repo for the Cloudy Musings post **"Blast radius: fault domains, availability zones, and why your zone 1 isn't my zone 1."**
 
 The post explains high availability as a ladder of blast radius: fault domains protect you from a rack, availability zones protect you from a building, and regions protect you from a geography. This repo gives you the hands-on side of that story. Read-only shell scripts let you explore your own subscriptions and accounts, and Terraform deploys each layer on Azure, AWS, and Google Cloud so you can see where your VMs actually land.
