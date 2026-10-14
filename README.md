@@ -1,6 +1,6 @@
 # Blast Radius Kit
 
-By Shannon Eldridge-Kuehn · Copyright (c) 2026 · Cloudy Musings
+By Shannon Eldridge-Kuehn · Copyright (c) 2026
 
 Companion repo for the Cloudy Musings post **"Blast radius: fault domains, availability zones, and why your zone 1 isn't my zone 1."**
 
