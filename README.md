@@ -1,4 +1,4 @@
-# blast-radius-kit
+# Blast Radius Kit
 
 Companion repo for the Cloudy Musings post **"Blast radius: fault domains, availability zones, and why your zone 1 isn't my zone 1."**
 
