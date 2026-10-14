@@ -1,0 +1,12 @@
+# Copy to terraform.tfvars and fill in. terraform.tfvars is git-ignored.
+
+subscription_id = "00000000-0000-0000-0000-000000000000"
+region          = "eastus2"
+prefix          = "br"
+
+# Six instances across three zones: two per building.
+zones          = ["1", "2", "3"]
+instance_count = 6
+
+# Or set TF_VAR_ssh_public_key in your shell instead.
+ssh_public_key = "ssh-ed25519 AAAA... you@laptop"

@@ -1,0 +1,10 @@
+# Copy to terraform.tfvars and fill in. terraform.tfvars is git-ignored.
+
+region = "us-east-1"
+prefix = "br"
+
+# Pick AZ IDs, not names. Run 01-explore/aws-az-ids.sh to see what your account has.
+az_ids = ["use1-az1", "use1-az2", "use1-az4"]
+
+partition_count         = 3
+instances_per_partition = 2

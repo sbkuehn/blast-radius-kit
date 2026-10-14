@@ -1,0 +1,12 @@
+# Copy to terraform.tfvars and fill in. terraform.tfvars is git-ignored.
+
+project_id = "my-project-id"
+region     = "us-central1"
+prefix     = "br"
+
+spread_zone               = "us-central1-a"
+availability_domain_count = 3
+spread_instance_count     = 3
+
+zones          = ["us-central1-a", "us-central1-b", "us-central1-c"]
+instance_count = 3

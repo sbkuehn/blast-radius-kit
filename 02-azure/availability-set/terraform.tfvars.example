@@ -1,0 +1,14 @@
+# Copy to terraform.tfvars and fill in. terraform.tfvars is git-ignored.
+
+subscription_id = "00000000-0000-0000-0000-000000000000"
+region          = "westus"
+prefix          = "br"
+
+# The "3 fault domains, 10 update domains" example from the blog post.
+# Drop fault_domain_count to 2 if your region only supports 2.
+fault_domain_count  = 3
+update_domain_count = 10
+instance_count      = 10
+
+# Or set TF_VAR_ssh_public_key in your shell instead.
+ssh_public_key = "ssh-ed25519 AAAA... you@laptop"
