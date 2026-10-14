@@ -2,7 +2,7 @@ output "group_id" {
   description = "Resource ID of the availability set."
   value       = azurerm_availability_set.this.id
 }
-
+sdf
 output "instance_names" {
   description = "VM names."
   value       = azurerm_linux_virtual_machine.this[*].name
