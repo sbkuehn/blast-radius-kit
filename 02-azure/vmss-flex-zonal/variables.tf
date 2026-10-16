@@ -12,7 +12,7 @@ variable "region" {
 variable "prefix" {
   description = "Short prefix used in resource names."
   type        = string
-  default     = "sek"
+  default     = "sbek"
 }
 
 variable "zones" {
