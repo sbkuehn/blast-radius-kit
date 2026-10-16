@@ -2,7 +2,7 @@
 
 subscription_id = "00000000-0000-0000-0000-000000000000"
 region          = "eastus2"
-prefix          = "br"
+prefix          = "sek"
 
 # Six instances across three zones: two per building.
 zones          = ["1", "2", "3"]
