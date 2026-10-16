@@ -2,7 +2,7 @@
 
 project_id = "my-project-id"
 region     = "us-central1"
-prefix     = "br"
+prefix     = "sbek"
 
 spread_zone               = "us-central1-a"
 availability_domain_count = 3
