@@ -2,7 +2,7 @@
 
 subscription_id = "00000000-0000-0000-0000-000000000000"
 region          = "westus"
-prefix          = "br"
+prefix          = "sek"
 
 # The "3 fault domains, 10 update domains" example from the blog post.
 # Drop fault_domain_count to 2 if your region only supports 2.
